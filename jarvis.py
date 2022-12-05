@@ -46,8 +46,7 @@ def main():
         prompt=text,
         temperature=0.6,
         max_tokens=250, 
-      ) 
-
+      )
       response_text = response.choices[0].text
       jarvis_speaks(response_text)
 
